@@ -14,7 +14,6 @@ import MessageBox from "../components/MessageBox";
 import { Store } from "../Store";
 import { getError } from "../utils";
 import { toast } from "react-toastify";
-import Razorpay from "../Razorpay";
 function reducer(state, action) {
   switch (action.type) {
     case "FETCH_REQUEST":
